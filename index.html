@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AUTOSPA Antofagasta: desabolladura, pintura al horno, pintura de llantas, pulido de focos, detailing, lavado y limpieza de tapiz.">
+<title>AUTOSPA | Desabolladura, Pintura y Detailing</title>
+<style>
+:root{--green:#39ff14;--black:#080b08;--panel:#111711;--white:#f5f7f5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--black);color:var(--white);font-family:Arial,Helvetica,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#050705ee;border-bottom:2px solid var(--green);padding:14px 5%;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.logo{font-size:clamp(25px,4vw,38px);font-weight:900;font-style:italic;letter-spacing:-2px}.logo span{color:var(--green)}.sub{font-size:11px;letter-spacing:1px;color:#ddd}
+nav{display:flex;gap:20px;flex-wrap:wrap}nav a{color:white;text-decoration:none;font-weight:bold}nav a:hover{color:var(--green)}
+.btn{display:inline-block;background:var(--green);color:#061006;text-decoration:none;font-weight:900;padding:14px 22px;border-radius:30px;box-shadow:0 0 18px #39ff1460}
+.hero{padding:22px 5% 36px;max-width:1500px;margin:auto}.banner{width:100%;display:block;border:1px solid #2c6527;border-radius:14px;box-shadow:0 0 28px #39ff1425}
+.intro{text-align:center;padding:44px 5% 20px}.eyebrow{color:var(--green);font-weight:800;letter-spacing:3px;text-transform:uppercase}.intro h1{font-size:clamp(30px,5vw,48px);margin:10px 0}.intro p{color:#c9d0c9;max-width:720px;margin:0 auto 22px;line-height:1.6}
+.services{max-width:1250px;margin:0 auto;padding:25px 5% 60px}.services h2,.contact h2{text-align:center;font-size:clamp(26px,4vw,38px);margin:0 0 28px}.services h2 span{color:var(--green)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:linear-gradient(145deg,#182018,#0d100d);border:1px solid #327a28;border-radius:14px;padding:24px 20px;min-height:150px;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 0 20px #39ff1433}.num{color:var(--green);font-weight:900;font-size:13px;letter-spacing:2px}.card h3{margin:12px 0 8px;font-size:20px}.card p{margin:0;color:#bfc7bf;line-height:1.5;font-size:14px}
+.band{background:#101710;border-top:1px solid #286e20;border-bottom:1px solid #286e20;padding:35px 5%;text-align:center}.band h2{margin:0 0 12px}.band p{color:#c5cec5;line-height:1.6;margin:0 auto 22px;max-width:680px}
+.contact{padding:50px 5%;text-align:center}.contact p{color:#d1d8d1;line-height:1.8}.contact strong{color:var(--green)}footer{text-align:center;border-top:1px solid #254b20;padding:20px;color:#aeb7ae;font-size:13px}
+@media(max-width:720px){header{position:static;flex-direction:column}nav{justify-content:center;gap:13px}.hero{padding:12px 3% 20px}.intro{padding-top:30px}.banner{border-radius:8px}}
+</style>
+</head>
+<body>
+<header>
+  <div><div class="logo">AUTO<span>SPA</span></div><div class="sub">DESABOLLADURA · PINTURA · DETAILING</div></div>
+  <nav><a href="#inicio">Inicio</a><a href="#servicios">Servicios</a><a href="#contacto">Contacto</a></nav>
+  <a class="btn" href="https://wa.me/56968242521?text=Hola%20AUTOSPA,%20quiero%20cotizar%20un%20servicio." target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+</header>
+<main id="inicio">
+  <section class="hero"><img class="banner" src="imagenes/banner-autospa.png" alt="AUTOSPA: desabolladura, pintura al horno y servicios automotrices en Antofagasta"></section>
+  <section class="intro">
+    <div class="eyebrow">AUTOSPA · Antofagasta</div>
+    <h1>Tu vehículo en las mejores manos</h1>
+    <p>Recupera la apariencia de tu vehículo con nuestros servicios de carrocería, pintura y cuidado automotriz. Escríbenos y solicita tu cotización.</p>
+    <a class="btn" href="https://wa.me/56968242521?text=Hola%20AUTOSPA,%20quiero%20cotizar." target="_blank" rel="noopener">Solicitar cotización</a>
+  </section>
+  <section class="services" id="servicios">
+    <h2>Nuestros <span>servicios</span></h2>
+    <div class="grid">
+      <article class="card"><div class="num">01 / CARROCERÍA</div><h3>Desabolladura de vehículos</h3><p>Reparación de abolladuras y daños en la carrocería.</p></article>
+      <article class="card"><div class="num">02 / PINTURA</div><h3>Pintura al horno</h3><p>Renovación de pintura con acabado profesional.</p></article>
+      <article class="card"><div class="num">03 / PERSONALIZACIÓN</div><h3>Pintura de llantas</h3><p>Renueva el aspecto de tus llantas.</p></article>
+      <article class="card"><div class="num">04 / RESTAURACIÓN</div><h3>Pulido de focos</h3><p>Mejora la claridad y apariencia de los focos.</p></article>
+      <article class="card"><div class="num">05 / CUIDADO</div><h3>Detailing</h3><p>Detallado y cuidado estético del vehículo.</p></article>
+      <article class="card"><div class="num">06 / LIMPIEZA</div><h3>Lavado de vehículos</h3><p>Limpieza exterior para mantener tu vehículo impecable.</p></article>
+      <article class="card"><div class="num">07 / INTERIOR</div><h3>Limpieza de tapiz</h3><p>Limpieza profunda de tapices y superficies interiores.</p></article>
+    </div>
+  </section>
+  <section class="band">
+    <h2>¿Tu auto necesita una renovación?</h2>
+    <p>Cuéntanos qué necesita tu vehículo. Te atenderemos por WhatsApp para orientarte y coordinar una cotización.</p>
+    <a class="btn" href="https://wa.me/56968242521?text=Hola%20AUTOSPA,%20quiero%20cotizar%20para%20mi%20vehiculo." target="_blank" rel="noopener">Hablar con AUTOSPA</a>
+  </section>
+  <section class="contact" id="contacto">
+    <h2>Visítanos o <strong>contáctanos</strong></h2>
+    <p><strong>Dirección:</strong> Víctor Jara 645, Antofagasta</p>
+    <p><strong>WhatsApp:</strong> +56 9 6824 2521</p>
+    <a class="btn" href="https://wa.me/56968242521" target="_blank" rel="noopener">Enviar mensaje por WhatsApp</a>
+  </section>
+</main>
+<footer>© AUTOSPA · Desabolladura, Pintura al Horno y Detailing · Antofagasta</footer>
+</body>
+</html>
