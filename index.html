@@ -23,7 +23,17 @@ gap:18px;
 box-shadow:0 5px 25px #0008;
 }
 .brand{display:flex;align-items:center;gap:12px}.logo-img{width:76px;height:76px;object-fit:contain;border-radius:50%;background:#fff}.sub{font-size:11px;letter-spacing:1px;color:#ddd}
-nav{display:flex;gap:20px;flex-wrap:wrap}nav a{color:white;text-decoration:none;font-weight:bold}nav a:hover{color:var(--green)}
+nav{display:flex;gap:20px;flex-wrap:wrap}nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:color .3s ease;
+padding:8px 4px;
+}
+nav a:hover{
+color:var(--green);
+text-shadow:0 0 12px #39f000;
+}
 .btn{
 display:inline-block;
 background:linear-gradient(135deg,#39f000,#8bff38);
