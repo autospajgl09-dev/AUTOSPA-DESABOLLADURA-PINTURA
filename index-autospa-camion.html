@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AUTOSPA Antofagasta: desabolladura, pintura al horno, pintura de llantas, pulido de focos, detailing, lavado y limpieza de tapiz.">
+<title>AUTOSPA | Desabolladura, Pintura y Detailing</title>
+<style>
+:root{--green:#ffe600;--black:#070b12;--panel:#111a27;--white:#f7f8fb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--black);color:var(--white);font-family:Arial,Helvetica,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#050c17ee;border-bottom:2px solid var(--green);padding:14px 5%;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:12px}.logo-img{width:76px;height:76px;object-fit:contain;border-radius:50%;background:#fff}.sub{font-size:11px;letter-spacing:1px;color:#ddd}
+nav{display:flex;gap:20px;flex-wrap:wrap}nav a{color:white;text-decoration:none;font-weight:bold}nav a:hover{color:var(--green)}
+.btn{display:inline-block;background:var(--green);color:#101522;text-decoration:none;font-weight:900;padding:14px 22px;border-radius:30px;box-shadow:0 0 18px #ffe60060}
+.hero{padding:22px 5% 36px;max-width:1100px;margin:auto;text-align:center}.banner{width:100%;max-height:720px;object-fit:contain;display:block;margin:auto;border:1px solid #6d6200;border-radius:14px;box-shadow:0 0 28px #ffe60025}
+.intro{text-align:center;padding:44px 5% 20px}.eyebrow{color:var(--green);font-weight:800;letter-spacing:3px;text-transform:uppercase}.intro h1{font-size:clamp(30px,5vw,48px);margin:10px 0}.intro p{color:#c9d0c9;max-width:720px;margin:0 auto 22px;line-height:1.6}
+.services{max-width:1250px;margin:0 auto;padding:25px 5% 60px}.services h2,.contact h2{text-align:center;font-size:clamp(26px,4vw,38px);margin:0 0 28px}.services h2 span{color:var(--green)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:linear-gradient(145deg,#172235,#0c1420);border:1px solid #ffffff19;border-top:2px solid var(--green);border-radius:14px;padding:24px 20px;min-height:150px;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 12px 28px #0008}.num{color:var(--green);font-weight:900;font-size:13px;letter-spacing:2px}.card h3{margin:12px 0 8px;font-size:20px}.card p{margin:0;color:#bfc7bf;line-height:1.5;font-size:14px}
+.band{background:linear-gradient(110deg,#0d1b30,#17263a);border-top:1px solid #ffe60055;border-bottom:1px solid #ffe60055;padding:35px 5%;text-align:center}.band h2{margin:0 0 12px}.band p{color:#c5cec5;line-height:1.6;margin:0 auto 22px;max-width:680px}
+.contact{padding:50px 5%;text-align:center}.contact p{color:#d1d8d1;line-height:1.8}.contact strong{color:var(--green)}footer{text-align:center;border-top:1px solid #ffffff20;padding:20px;color:#aeb7ae;font-size:13px}
+
+.gallery{max-width:1250px;margin:0 auto;padding:10px 5% 65px}
+.gallery h2{text-align:center;font-size:clamp(26px,4vw,38px);margin:0 0 10px}
+.gallery-intro{text-align:center;color:#c5cec5;margin:0 auto 28px;max-width:720px;line-height:1.6}
+.gallery-group{margin:30px 0 42px;scroll-margin-top:24px}
+.gallery-group h3{font-size:23px;margin:0 0 16px;color:var(--green)}
+.photo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.photo-card{margin:0;background:#111711;border:1px solid #ffffff19;border-top:2px solid var(--green);border-radius:12px;overflow:hidden;box-shadow:0 6px 18px #0005}
+.photo-card img{display:block;width:100%;height:220px;object-fit:cover}
+.photo-card figcaption{padding:11px 13px;color:#e4e9e4;font-size:13px;line-height:1.45}
+.gallery-note{color:#aeb7ae;font-size:13px;text-align:center;margin-top:22px}
+
+@media(max-width:720px){header{position:static;flex-direction:column}.brand{flex-direction:column;text-align:center}.logo-img{width:88px;height:88px}nav{justify-content:center;gap:13px}.hero{padding:12px 3% 20px}.intro{padding-top:30px}.banner{border-radius:8px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><img class="logo-img" src="imagenes/logo-autospa.jpeg" alt="Logo AUTOSPA"><div><div style="font-size:26px;font-weight:900;letter-spacing:1px">AUTO<span style="color:var(--green)">SPA</span></div><div class="sub">DESABOLLADURA · PINTURA · DETAILING</div></div></div>
+  <nav><a href="#inicio">Inicio</a><a href="#servicios">Servicios</a><a href="#trabajos">Trabajos</a><a href="#contacto">Contacto</a></nav>
+  <a class="btn" href="https://wa.me/56968242521?text=Hola%20AUTOSPA,%20quiero%20cotizar%20un%20servicio." target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+</header>
+<main id="inicio">
+  <section class="hero"><img class="banner" src="imagenes/portada-autospa-final.png" alt="Portada oficial AUTOSPA"></section>
+  <section class="intro">
+    <div class="eyebrow">AUTOSPA · Antofagasta</div>
+    <h1>Tu vehículo en las mejores manos</h1>
+    <p>Recupera la apariencia de tu vehículo con nuestros servicios de carrocería, pintura y cuidado automotriz. Escríbenos y solicita tu cotización.</p>
+    <a class="btn" href="https://wa.me/56968242521?text=Hola%20AUTOSPA,%20quiero%20cotizar." target="_blank" rel="noopener">Solicitar cotización</a>
+  </section>
+  <section class="services" id="servicios">
+    <h2>Nuestros <span>servicios</span></h2>
+    <div class="grid">
+      <article class="card"><a class="card-link" href="#galeria-desabolladura" aria-label="Ver trabajos de desabolladura" style="color:inherit;text-decoration:none;display:block"><div class="num">01 / CARROCERÍA</div><h3>Desabolladura de vehículos</h3><p>Reparación de abolladuras y daños en la carrocería.</p></a></article>
+      <article class="card"><a href="#galeria-pintura" style="color:inherit;text-decoration:none;display:block"><div class="num">02 / PINTURA</div><h3>Pintura al horno</h3><p>Renovación de pintura con acabado profesional.</p></a></article>
+      <article class="card"><a href="#galeria-llantas" style="color:inherit;text-decoration:none;display:block"><div class="num">03 / PERSONALIZACIÓN</div><h3>Pintura de llantas</h3><p>Renueva el aspecto de tus llantas.</p></a></article>
+      <article class="card"><a href="#galeria-focos" style="color:inherit;text-decoration:none;display:block"><div class="num">04 / RESTAURACIÓN</div><h3>Pulido de focos</h3><p>Mejora la claridad y apariencia de los focos.</p></a></article>
+      <article class="card"><div class="num">05 / CUIDADO</div><h3>Detailing</h3><p>Detallado y cuidado estético del vehículo.</p></article>
+      
+<article class="card">
+  <div class="num">06 / LIMPIEZA</div>
+  <h3>Lavado de vehículos</h3>
+  <p>Limpieza exterior para mantener tu vehículo impecable.</p>
+</article>
+ 
+
+      <article class="card"><div class="num">07 / INTERIOR</div><h3>Limpieza de tapiz</h3><p>Limpieza profunda de tapices y superficies interiores.</p></article>
+    </div>
+  </section>
+  <section class="gallery" id="trabajos">
+    <h2>Nuestros <span style="color:var(--green)">trabajos</span></h2>
+    <p class="gallery-intro">Conoce algunos de los trabajos realizados por AUTOSPA. Organizamos las fotografías según el servicio correspondiente.</p>
+
+    <div class="gallery-group" id="galeria-desabolladura">
+      <h3>Desabolladura de vehículos</h3>
+      <div class="photo-grid">
+        <figure class="photo-card"><img src="desabolladura-reparacion-carroceria.jpeg" alt="Vehículo en proceso de reparación de carrocería" loading="lazy"><figcaption>Reparación de carrocería</figcaption></figure>
+        <figure class="photo-card"><img src="desabolladura-reparacion-zona-inferior.jpeg" alt="Reparación de zona inferior de carrocería" loading="lazy"><figcaption>Reparación de zona dañada</figcaption></figure>
+        <figure class="photo-card"><img src="desabolladura-reparacion-parachoques.jpeg" alt="Parachoques en proceso de reparación" loading="lazy"><figcaption>Reparación de parachoques</figcaption></figure>
+        <figure class="photo-card"><img src="desabolladura-preparacion-superficie.jpeg" alt="Superficie de vehículo preparada para reparación" loading="lazy"><figcaption>Preparación de superficie</figcaption></figure>
+        <figure class="photo-card"><img src="WhatsApp Image 2026-11-06 at 4.39.09 PM (5).jpeg" alt="Cabina de camión en reparación de carrocería" loading="lazy"><figcaption>Reparación de cabina de camión</figcaption></figure>
+        <figure class="photo-card"><img src="WhatsApp Image 2026-11-06 at 4.39.09 PM (6).jpeg" alt="Lateral de cabina de camión durante reparación" loading="lazy"><figcaption>Trabajo de carrocería en camión</figcaption></figure>
+        <figure class="photo-card"><img src="WhatsApp Image 2026-11-06 at 4.39.09 PM (7).jpeg" alt="Cabina de camión desmontada y preparada para reparación" loading="lazy"><figcaption>Preparación de cabina</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="gallery-group" id="galeria-pintura">
+      <h3>Pintura al horno</h3>
+      <div class="photo-grid">
+        <figure class="photo-card"><img src="pintura-horno-ford-terminado.jpeg" alt="Camioneta Ford con acabado exterior" loading="lazy"><figcaption>Vehículo terminado</figcaption></figure>
+        <figure class="photo-card"><img src="pintura-horno-suv-rojo-terminado.jpeg" alt="SUV rojo con pintura renovada" loading="lazy"><figcaption>Acabado de pintura en vehículo</figcaption></figure>
+        <figure class="photo-card"><img src="pintura-horno-pieza-roja-en-proceso.jpeg" alt="Pieza trasera de vehículo en proceso de pintura al horno" loading="lazy"><figcaption>Pintura de pieza en proceso</figcaption></figure>
+        <figure class="photo-card"><img src="pintura-horno-camioneta-imprimacion.jpeg" alt="Camioneta preparada con imprimación" loading="lazy"><figcaption>Preparación y aplicación de imprimación</figcaption></figure>
+        <figure class="photo-card"><img src="pintura-horno-camioneta-pintada.jpeg" alt="Carrocería de camioneta pintada" loading="lazy"><figcaption>Terminación de pintura</figcaption></figure>
+        <figure class="photo-card"><img src="pintura-horno-parachoques-en-proceso.jpeg" alt="Parachoques preparado para pintura" loading="lazy"><figcaption>Preparación de parachoques</figcaption></figure>
+        <figure class="photo-card"><img src="pintura-horno-preparacion-techo.jpeg" alt="Techo de vehículo preparado para pintura" loading="lazy"><figcaption>Preparación de superficie para pintar</figcaption></figure>
+        <figure class="photo-card"><img src="WhatsApp Image 2026-11-06 at 4.39.09 PM (8).jpeg" alt="Cabina de camión enmascarada y pintada" loading="lazy"><figcaption>Proceso de pintura de cabina</figcaption></figure>
+        <figure class="photo-card"><img src="WhatsApp Image 2026-11-06 at 4.39.09 PM (9).jpeg" alt="Camión terminado después del trabajo de pintura" loading="lazy"><figcaption>Camión terminado</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="gallery-group" id="galeria-llantas">
+      <h3>Pintura de llantas</h3>
+      <div class="photo-grid">
+        <figure class="photo-card">
+          <img src="pintura-llantas-autospa.jpeg" alt="Trabajos de pintura y renovación de llantas realizados por AUTOSPA" loading="lazy">
+          <figcaption>Renovación y pintura de llantas AUTOSPA</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="gallery-group" id="galeria-focos">
+      <h3>Pulido de focos</h3>
+      
+<div class="photo-grid">
+  <figure class="photo-card">
+    <video controls playsinline preload="metadata"
+      style="width:100%;height:auto;border-radius:12px;">
+      <source src="img_1097.mp4" type="video/mp4">
+      Tu navegador no puede reproducir este video.
+    </video>
+    <figcaption>Servicio profesional de pulido de focos AUTOSPA</figcaption>
+  </figure>
+</div>
+</div>
+
+    <p class="gallery-note">Conoce algunos de los trabajos realizados por AUTOSPA.</p>
+  </section>
+
+<section class="gallery" id="videos-lavado">
+  <h2>Lavado de vehículos</h2>
+  <div class="photo-grid">
+    <figure class="photo-card">
+      <video controls playsinline preload="metadata" style="width:100%;height:auto;border-radius:12px;">
+        <source src="IMG_1544(1).mp4" type="video/mp4">
+      </video>
+      <figcaption>Lavado de vehículos AUTOSPA</figcaption>
+    </figure>
+
+    <figure class="photo-card">
+      <video controls playsinline preload="metadata" style="width:100%;height:auto;border-radius:12px;">
+        <source src="IMG_1547.mp4" type="video/mp4">
+      </video>
+      <figcaption>Lavado de vehículos AUTOSPA</figcaption>
+    </figure>
+  </div>
+</section>
+  <section class="band">
+    <h2>¿Tu auto necesita una renovación?</h2>
+    <p>Cuéntanos qué necesita tu vehículo. Te atenderemos por WhatsApp para orientarte y coordinar una cotización.</p>
+    <a class="btn" href="https://wa.me/56968242521?text=Hola%20AUTOSPA,%20quiero%20cotizar%20para%20mi%20vehiculo." target="_blank" rel="noopener">Hablar con AUTOSPA</a>
+  </section>
+  <section class="contact" id="contacto">
+    <h2>Visítanos o <strong>contáctanos</strong></h2>
+    <p><strong>Dirección:</strong> Víctor Jara 645, entre Rendic y Osorno, Antofagasta</p>
+    <p><strong>WhatsApp:</strong> +56 9 6824 2521</p>
+    <a class="btn" href="https://wa.me/56968242521" target="_blank" rel="noopener">Enviar mensaje por WhatsApp</a>
+  </section>
+</main>
+<footer>© AUTOSPA · Desabolladura, Pintura al Horno y Detailing · Antofagasta</footer>
+</body>
+</html>
